@@ -12,7 +12,7 @@ const getListDay = (startDate, endDate, ex = [0, 6]) => {
         startDate: startDate,
         endDate: endDate,
         totalDay: totalDay,
-		listExDay: ex,
+        listExDay: ex,
         listDay: [],
         listDate: []
     }
