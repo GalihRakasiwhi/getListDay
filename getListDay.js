@@ -1,3 +1,8 @@
+/**
+ * @param {Date} startDate
+ * @param {Date} endDate
+ */
+
 const getListDay = (startDate, endDate, ex = [0, 6]) => {
     const nameDay = ["Minggu","Senin","Selasa","Rabu","Kamis","Jum'at","Sabtu"];
     let totalExDay = 0;
