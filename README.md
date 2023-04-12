@@ -8,7 +8,7 @@ let endDate = new Date("2023-05-12"); // example
 getListDay(startDate, endDate);
 ```
 
-**ex** = list array berisi nomor hari yang akan di exlude<br />
+**ex** = list array berisi nomor hari yang akan di exclude<br />
 0 = Minggu, 1 = Senin, ..., 6 = Sabtu<br />
 nilai default pada ex adalah [0, 6], alias [Minggu, Sabtu]<br />
 nilai pada ex bisa angka 0 sampai 6, dengan jumlah list maksimal bisa berapa saja<br />
