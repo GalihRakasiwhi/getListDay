@@ -9,12 +9,8 @@ const getListDay = (startDate, endDate, ex = [0, 6]) => {
     let totalDay = Math.ceil(selisih / (1000*3600*24)) + 1;
 
     data = {
-        startDate: startDate,
-        endDate: endDate,
-        totalDay: totalDay,
-        listExDay: ex,
-        listDay: [],
-        listDate: []
+		startDate: startDate, endDate: endDate, totalDay: totalDay,
+		listExDay: ex, listDay: [], listDate: []
     }
 
     for (i=0; i<totalDay; i++) {
