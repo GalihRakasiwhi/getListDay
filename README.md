@@ -1,7 +1,8 @@
 # getListDay
  
 ##Cara pakai:
-```const getListDay = require('./getListDay');
+```
+const getListDay = require('./getListDay');
 let startDate = new Date("2023-04-12"); // example
 let endDate = new Date("2023-05-12"); // example
 getListDay(startDate, endDate);
